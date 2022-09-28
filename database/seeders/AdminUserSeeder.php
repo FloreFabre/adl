@@ -17,7 +17,7 @@ class AdminUserSeeder extends Seeder
      
       
 
-        User::create(['nom' => 'Adras', 'Sophie' => 'gerard', 'email' => 'sophie@gmail.com', 'profil' => 'abonne', 'address' => 'mon adresse', 'zipCode' => '97410', 'numero_telephone' => '0601020304', 'city' => 'Saint-Pierre', 'password' => bcrypt('azerty')]);
+        User::create(['nom' => 'Adras', 'prenom' => 'Sophie', 'email' => 'sophie@gmail.com', 'profil' => 'abonne', 'address' => 'mon adresse', 'zipCode' => '97410', 'numero_telephone' => '0601020304', 'city' => 'Saint-Pierre', 'password' => bcrypt('azerty')]);
         User::create(['nom' => 'Fontaine', 'prenom' => 'Gérard', 'email' => 'gegard@gmail.com', 'profil' => 'abonne', 'address' => 'mon adresse', 'zipCode' => '97410', 'numero_telephone' => '0601020304', 'city' => 'Saint-Pierre', 'password' => bcrypt('azerty')]);
         
         
